@@ -1,5 +1,43 @@
-
-
 body{
-    background: var(--green);
+background-color:white;
+
+}
+
+
+
+  img{
+    transition: -webkit-filter(1);
+         -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+   border-radius: 10%; 
+   border: 20px solid royalblue;
+
+  }
+
+  img:hover{ -webkit-filter: grayscale(0);
+    filter: grayscale(0);} 
+
+
+ 
+
+
+
+  .one{
+      text-align: center;
+  }
+  .pro{
+      color:royalblue;
+    font-family: 'Supermercado One', cursive;
+      font-size: 3vw
+  }
+  .abo{
+    color:royalblue;
+  font-family: 'Supermercado One', cursive;
+    font-size: 3vw
+}
+
+p{
+
+font-family: 'Quicksand', sans-serif;
+font: 500;
 }

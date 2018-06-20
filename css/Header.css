@@ -1,0 +1,80 @@
+.jumbotron{
+ 
+    height: 550px;
+    color: black;
+	/*background-color: dodgerblue;*/
+    background: linear-gradient(-45deg, royalblue, white);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 3s ease infinite;
+	-moz-animation: Gradient 3s ease infinite;
+	animation: Gradient 3s ease infinite;
+}
+
+.display-4{
+    font-size: 1800%;
+    color:white;
+   font-family:Helvetica, sans-serif;
+   font-family: 'Supermercado One', cursive;
+
+   background-image: linear-gradient(-45deg, white,royalblue);
+   -webkit-background-clip:text;
+   -webkit-text-fill-color:transparent;
+   background-size: 400% 400%;
+   -webkit-animation: Gradient 3s ease infinite;
+	-moz-animation: Gradient 3s ease infinite;
+	animation: Gradient 3s ease infinite;
+   
+}
+.lead{
+	color:white;
+    font-size: 200%;
+    left:2%;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-brand{
+
+    font-family: 'Quicksand', sans-serif;
+    text-transform:uppercase;
+
+}
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/* */
